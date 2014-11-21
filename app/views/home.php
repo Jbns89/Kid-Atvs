@@ -16,6 +16,39 @@
             .logo {
                 width:10%;
             }
+            #menu {
+                width: 550px;
+                height: 35px;
+                font-size: 16px;
+                font-family: Tahoma, Geneva, sans-serif;
+                font-weight: bold;
+                text-align: center;
+                text-shadow: 3px 2px 3px #333333;
+                background-color: #8AD9FF;
+                border-radius: 8px;
+            }
+            
+            #menu ul {
+                height: auto;
+                padding: 8px 0px;
+                margin: 0px;
+            }
+            
+            #menu li { 
+                display: inline; 
+                padding: 20px; 
+            }
+            
+            #menu a {
+                text-decoration: none;
+                color: #00F;
+                padding: 8px 8px 8px 8px;
+            }
+            
+            #menu a:hover {
+                color: #F90;
+                background-color: #FFF;
+            }
             
             body {
                 font-family: 'Ubuntu', sans-serif;
@@ -23,32 +56,72 @@
         </style>
     </head>
     <body>
-    <!-- Navbar -->
+        
+        
+<!------------------ Navbar using only CSS ------------------------>
+
+
+<!-- <div id="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li>Vehicles</li>
+        <ul>
+            <li>Kid Atvs</li>
+            <ul>
+                <li>Kids Atvs 50cc-110cc</li>
+                <li>Kids Atvs 125cc-150cc</li>
+            </ul>
+            <li><a href="#">Kid Dirtbikes</a></li>
+            <li><a href="#">Go-Karts</a></li>
+            <li><a href="#">Utility Vehicles</a></li>
+        </ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Warranty & Policies</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</div>
+
+ -->
+
+
+
+<!---------------------------------------Navbar---------------------------------->
+    
         <nav class="navbar navbar-default" role="navigation">
           <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" alt="logo" src="/img/logo_atv.jpg">
-                    <span class="brand">Kid Atvs</span>
-                </a>
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home Page</a></li>
-                    <li><a href="#">Kids Atvs</a></li>
-                    <li><a href="#">Kids Dirtbikes</a></li>
-                    <li><a href="#">Go-Karts</a></li>
-                    <li><a href="#">Utility Vehicles</a></li>
+                    <li>
+                        <img class="logo" alt="logo" src="/img/logo_atv.jpg">
+                    </li>
+                    <li><a href="#"><span class="brand">Kid-Atvs</span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vehicles 
+                            <span class="caret">
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Kid Atvs</a></li>
+                            <li><a href="#">Kid Dirtbikes</a></li>
+                            <li><a href="#">Go-Karts</a></li>
+                            <li><a href="#">Utility Vehicles</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Warranty & Policies</a></li>
                     <li><a href="#">Contact Us</a></li>
-                <ul>
+                </ul>
             </div>
           </div>
-        </nav>
+        
+<!-----------------------------------------------------------------------------End of Navbar -->
+
+
         <div class="container">
             <h4>Free Rush Shipping With Every Purchase! Black Friday Deals! <br>
                 Layaway Now Available! Industry Leading 2 Year Warranty Free With Every Purchase!
                 </h4>
-<!-- Jumbotron with mission statement -->
+<!----------------------------- Jumbotron with mission statement ---------------------->
             <div class="jumbotron">
                 
                 <p>Kid-ATVs.com is determined to give you the Highest Quality at the Lowest Price! In today’s 
