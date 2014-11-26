@@ -37,33 +37,41 @@
             .navbar-default .navbar-brand {
                 color: #FFF;
             }
+            .container {
+                margin-top: -2%;
+            }
+            
         </style>
         
 
     </head>
     <body>
 
-         <section class="module parallax parallax-1">
-            <div class="container">
-                <p class="mission">Kid-ATVs.com is the 
+
+<!-- <p><strong>Kid-ATVs.com</strong> is the 
                   <strong>#1 distributor</strong> of kids atvs, dirt-bikes, and go-karts and we are 
                   determined to give you the <strong>highest quality</strong> at the 
-                  <em>lowest price</em>! If you find a lower price we'll beat it! In addition, all of our 
+                  <em>lowest price</em>! If you find a lower price we'll beat it! In addition, every kids atv you see here will come with a free 24 month warranty and all of our 
                   products are shipped directly from the warehouse to your front door free shipping, 
-                  no extra cost!</p>
-            </div>
+                  no extra cost!</p> -->
+
+
+         <section class="module parallax parallax-1">
+            <div class="container">
+            <h1>ATVS</h1>
+          </div>
         </section>
 
         <section class="module content">
           <div class="container">
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <h2><a href="#">View Atvs</a></h2>
+            <p>Go where adventure lives with an off-road vehicle designed for exhilaration. On the trail, in the mud or around the track, every Can-Am vehicle is powered by industry-leading performance, precision-engineered handling and rider-focused design. On paper our technology and innovation speak for itself but you have to get on a Can-Am to discover why the ride says it all.</p>
           </div>
         </section>
 
         <section class="module parallax parallax-2">
           <div class="container">
-            <h1>Rise</h1>
+            <h1>DIRTBIKES</h1>
           </div>
         </section>
 
@@ -76,7 +84,7 @@
 
         <section class="module parallax parallax-3">
           <div class="container">
-            <h1>Calm</h1>
+            <h1>GO-KARTS</h1>
           </div>
         </section>
 
