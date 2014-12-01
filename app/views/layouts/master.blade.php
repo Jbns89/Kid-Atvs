@@ -27,21 +27,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Kid-Atvs.com</a>
+              <a class="navbar-brand" href="{{action('HomeController@showHome')}}">Kid-Atvs.com</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-font" href="#">About Us</a></li>
-                <li><a class="nav-font" href="#">Contact Us</a></li>
-                <li><a class="nav-font" href="#">Warranty & Policies</a></li>
+                <li><a class="nav-font" href="{{action('HomeController@showAbout')}}">About Us</a></li>
+                <li><a class="nav-font" href="{{action('HomeController@showContact')}}">Contact Us</a></li>
+                <li><a class="nav-font" href="{{action('HomeController@showPolicy')}}">Warranty & Policies</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vehicles <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a class="nav-font" href="#">Kids Atvs</a></li>
-                    <li><a class="nav-font" href="#">Kids Dirtbikes</a></li>
-                    <li><a class="nav-font" href="#">Kids 4 Wheelers</a></li>
-                    <li><a class="nav-font" href="#">Utility Vehicles</a></li>
+                    <li><a class="nav-font" href="{{action('HomeController@showAtvs')}}">Kids Atvs</a></li>
+                    <li><a class="nav-font" href="{{action('HomeController@showDirtbikes')}}">Kids Dirtbikes</a></li>
+                    <li><a class="nav-font" href="{{action('HomeController@showKarts')}}">Kids Go-Karts</a></li>
+                    <li><a class="nav-font" href="{{action('HomeController@showUtility')}}">Utility Vehicles</a></li>
                   </ul>
                 </li>
               </ul>

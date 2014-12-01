@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('home');
-});
+Route::get('/', 'HomeController@showHome');
+Route::get('/atvs', 'HomeController@showAtvs');
+Route::get('/dirtbikes','HomeController@showDirtbikes');
+Route::get('/utility', 'HomeController@showUtility';
+Route::get('/about', 'HomeController@showAbout');
+Route::get('/contact', 'HomeController@showContact');
+Route::get('/policies', 'HomeController@showPolicy');
