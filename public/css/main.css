@@ -40,7 +40,7 @@ section.module.parallax h1 {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 30px 30px 90px rgba(0, 0, 0, 1);
 }
 section.module.parallax-1 {
     background-image: url("/img/bcg_atv.jpg");
@@ -75,4 +75,85 @@ BASIC CSS
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-image: url("/img/dirt.jpg");
+    color: white;
+}
+
+.emphasize {
+    font-size: 135%;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.43);
+    padding: inherit;
+}
+
+section.module.content {
+    padding: 40px 0;
+    background-image: url('/img/dirt.jpg');
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+section.module.parallax-1 {
+    margin-top: -20px;
+}
+
+.container_home {
+    margin-top: -2%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    text-decoration: underline; 
+    font-size: large;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.navbar-default {
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.42) 0,rgba(0, 0, 0, 0.31) 100%);
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.65);
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    border-radius: 15px;
+}
+
+.dropdown-menu>li>a {
+    color: rgba(255, 255, 255, 0.83);
+    text-decoration: none;
+}
+
+.dropdown-menu>li>a:hover {
+    color: rgba(255, 255, 255, 0.83);
+
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+color: #FFF;
+background-color: #000000;
 }
