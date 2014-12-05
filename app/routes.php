@@ -12,9 +12,14 @@
 */
 
 Route::get('/', 'HomeController@showHome');
+
+// Routes for vehicles
 Route::get('/atvs', 'HomeController@showAtvs');
 Route::get('/dirtbikes','HomeController@showDirtbikes');
-Route::get('/utility', 'HomeController@showUtility';
+Route::get('/karts', 'HomeController@showKarts');
+Route::get('/utility', 'HomeController@showUtility');
+
+//Routes for other info 
 Route::get('/about', 'HomeController@showAbout');
 Route::get('/contact', 'HomeController@showContact');
 Route::get('/policies', 'HomeController@showPolicy');
