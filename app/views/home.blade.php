@@ -13,48 +13,32 @@
 
         <title>Kid Atvs</title>
         
-        <style>
-            section.module.content {
-              padding: 40px 0;
-              background-image: url('/img/dirt.jpg');
-              color: white;
-              }
-              a {
-                color: #FFFFFF;
-                text-decoration: underline;
-              }
-            section.module.parallax-1 {
-                margin-top: -20px;
-            }
-            body {
-                font-family: 'Ubuntu', sans-serif;
-            }
-            .container {
-                margin-top: -2%;
-            }
-            
-        </style>
-        
-
     </head>
     <body>
 
 
+
+        <section class="module content">
+          <div class="container">
+            <p><strong><span class="emphasize">Kid-ATVs.com<span></strong> is the 
+                  <strong>#1 distributor</strong> of kids atvs, dirt-bikes, and go-karts and we are 
+                  determined to give you the <strong>highest quality</strong> at the 
+                  <em>lowest price</em>!</p>
+          </div>
+        </section>
+
          <section class="module parallax parallax-1">
-            <div class="container">
+            <div class="container_home">
             <h1>ATVS</h1>
           </div>
         </section>
 
         <section class="module content">
           <div class="container">
-            <h2><a href="HomeController@showAtvs">View Atvs</a></h2>
-            <p><strong>Kid-ATVs.com</strong> is the 
-                  <strong>#1 distributor</strong> of kids atvs, dirt-bikes, and go-karts and we are 
-                  determined to give you the <strong>highest quality</strong> at the 
-                  <em>lowest price</em>! If you find a lower price we'll beat it! In addition, every kids atv you see here will come with a free 24 month warranty and all of our 
-                  products are shipped directly from the warehouse to your front door free shipping, 
-                  no extra cost!</p>
+            <h2><a href="{{{action('HomeController@showAtvs')}}}">View Atvs</a></h2>
+            <p>Every kids atv you see here will come with a free 24 month warranty and all of our 
+                products are shipped directly from the warehouse to your front door free shipping, 
+                no extra cost! If you find a lower price we'll beat it!</p>
           </div>
         </section>
 
@@ -66,7 +50,7 @@
 
         <section class="module content">
           <div class="container">
-            <h2><a href="HomeController@showDirtbikes">View Dirtbikes</a></h2>
+            <h2><a href="{{{action('HomeController@showDirtbikes')}}}">View Dirtbikes</a></h2>
             <p>Go where adventure lives with an off-road vehicle designed for exhilaration. On the trail, in the mud or around the track, discover why the ride says it all.</p>
           </div>
         </section>
@@ -79,7 +63,7 @@
 
         <section class="module content">
           <div class="container">
-            <h2><a href="HomeController@showKarts">View Go-Karts</a></h2>
+            <h2><a href="{{{action('HomeController@showKarts')}}}">View Go-Karts</a></h2>
             <p>Full independent Dual A-Arm suspension with Spring Coil Over Shocks on all units and Remote control safety features on all smaller units are just a few features we offer.</p>
           </div>
         </section>
