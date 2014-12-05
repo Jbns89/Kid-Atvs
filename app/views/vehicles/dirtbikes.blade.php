@@ -5,5 +5,7 @@
 @stop
 
 @section('content')
+<div class="container">
     <h1>Dirtbikes</h1>
+</div>
 @stop
